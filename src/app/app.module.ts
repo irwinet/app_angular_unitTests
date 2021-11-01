@@ -7,6 +7,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { MedicoComponent } from './intermedio2/medico/medico.component';
 import { MedicoService } from './intermedio2/medico/medico.service';
 import { HospitalComponent } from './intermedio2/hospital/hospital.component';
+import { IncrementadorComponent } from './intermedio2/incrementador/incrementador.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { HospitalComponent } from './intermedio2/hospital/hospital.component';
     AppComponent,
     MedicosComponent,
     MedicoComponent,
-    HospitalComponent
+    HospitalComponent,
+    IncrementadorComponent
   ],
   imports: [
     BrowserModule,
