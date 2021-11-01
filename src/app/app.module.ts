@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { MedicosComponent } from './intermedio/espias/medicos.component';
 import { HttpClientModule } from '@angular/common/http';
 import { MedicoComponent } from './intermedio2/medico/medico.component';
+import { MedicoService } from './intermedio2/medico/medico.service';
 
 
 @NgModule({
@@ -17,7 +18,9 @@ import { MedicoComponent } from './intermedio2/medico/medico.component';
     BrowserModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [
+    MedicoService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
