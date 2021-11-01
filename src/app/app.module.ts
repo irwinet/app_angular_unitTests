@@ -8,6 +8,7 @@ import { MedicoComponent } from './intermedio2/medico/medico.component';
 import { MedicoService } from './intermedio2/medico/medico.service';
 import { HospitalComponent } from './intermedio2/hospital/hospital.component';
 import { IncrementadorComponent } from './intermedio2/incrementador/incrementador.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { IncrementadorComponent } from './intermedio2/incrementador/incrementado
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [
     MedicoService
